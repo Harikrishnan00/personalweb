@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Noto Sans', sans-serif;
+    scroll-behavior: smooth;   
+}
+
+
+
+/* background-customisation */
+.landing-page{
+    width: 100%;
+    height: 90vh;
+    background: rgb(255,0,104);
+    background: linear-gradient(82deg, rgba(255,0,104,1) 57%, rgba(224,27,97,0.9500175070028011) 87%);
+}
+.wave svg{
+    position: absolute;
+    bottom: 10vh;  
+}
+/* background-customisation ends */
+
+/*header*/
+.logo-side a,.nav-side a{
+    text-decoration: none;
+    color: rgb(245, 231, 231);
+}
+.nav-side a{
+    padding: 14px;
+    /* position: relative;
+    left: 600px; */
+
+}
+.nav-side a:hover{
+    color: white;
+}
+
+.container{
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 30px;
+    position: relative;
+    top: 10px;
+    
+}
+/* header ends */
+
+/* contesnt */
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 42px;
+    position: relative;
+    top: 12vh;
+}
+.heading h1{
+    color: white;
+    font-size: 45px;
+}
+.para p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.99);
+    line-height: 28px;
+}
+.explore-button button{
+    border: none;
+    width: 110px;
+    height: 35px;
+    position: relative;
+    top: 34px;
+    font-size: 15px;
+    cursor:pointer;
+}
+ 
+   
+
+.anime svg{
+    width: 250px;
+    height: 130vh;
+    position: relative;
+    left: 65%;
+    bottom: 82vh; 
+}
+/* contents ends */
+.row1,.row2{
+    
+    padding: 62px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 243, 243, 0.884);
+} 
+/* card section */
+
+.services::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top,rgba(255, 243, 243, 0.884),transparent);
+    z-index: 10;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: rgba(255,43,43,1);
+    width: 23%;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: white;
+}
+.card h1{
+    color: black;
+    position: relative;
+    left: 0;
+    bottom: 4vh;
+}
+.card img{
+    width: 65px;
+    height: 65px;
+}
+.card p{
+    position: relative;
+    left: 0;
+    bottom: 4vh;
+}
+/* card section ends */
+/* contact-form */
+.contact-me{
+    width: 100%;
+}
+ .form-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color:rgba(255, 243, 243, 0.568) ;
+    padding: 20px;
+    
+}
+ input {
+   width: 705%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.input textarea{
+    width: 515%;
+    height: 220px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.input {
+    margin-top: 15px;
+}
+.button button{
+    width: 250%;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    position: relative;
+    top: 10px;
+    background-color: rgb(255,0,104);
+    opacity: 1;
+}
+button:hover{
+    opacity: .8;
+}
